@@ -62,7 +62,7 @@ const main = async () => {
             await renderChart();
         });
     } catch (error) {
-        console.error('==>', error);
+        console.error('CATCH ==>', error);
     }
 }
 
