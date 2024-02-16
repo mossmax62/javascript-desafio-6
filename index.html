@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Max Mussuto - Conversor de monedas - Desafio Latam</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        <div class="container">
+
+        
+        <div class="conversor">
+            <h1>Conversor de monedas MM Software</h1>
+        <div>
+            <label for="pesos">Pesos</label>
+            <input type="text" id="pesos" placeholder="Pesos" value="1000">
+            <select class="form-select" aria-label="Default select example" id="moneda">
+                <option value="dolar">Dolar</option>
+                <option value="euro">Euro</option>
+                <option value="uf">UF</option>
+                <option value="utm">UTM</option>
+            </select>
+            <button class="btn btn-success" id="convertir">Convertir</button>
+            <br>
+            <h2 id="resultado"></h2>
+        </div>
+        <canvas id="myChart">Chart</canvas>
+    </div>
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="./assets/js/script.js"></script>
+    </body>
+    </html>
